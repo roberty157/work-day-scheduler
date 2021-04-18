@@ -136,8 +136,8 @@ scheduleObjList.forEach(element=>{
         textareaBlock.parent().css('background-color','Gainsboro');
         textareaBlock.css('background-color','Gainsboro');
 
-        textareaBlock.prop('disabled','true');
-        timeblockButton.prop('disabled','true');
+        //textareaBlock.prop('disabled','true');
+        //timeblockButton.prop('disabled','true');
 
         timeblockButtonIcon.attr('class','fas fa-lock');
     }else if(element["state"]=="future"){
