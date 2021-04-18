@@ -4,11 +4,7 @@ $("#currentDay").text(today.format("dddd, MMMM Do"));
 
 var textareaLst = $("textarea");
 //console.log(textareaLst.length);
-/*
-for(var i =0;i<textareaLst.length;i++){
-    console.log(textareaLst[i]);
-}
-*/
+
 
 //9am to 5pm
 
